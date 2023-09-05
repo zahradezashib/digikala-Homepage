@@ -98,6 +98,7 @@ header>div.minimenu>div.location>p>svg{
     width: 5%;
     fill: rgb(81, 79, 79);
     vertical-align: top;
+    transform: scale(0.8);
 }
 header>div.minimenu>div.location>div.city{
     text-align: center;
@@ -120,7 +121,7 @@ header>div.minimenu>div.location:hover>div.city{
 header>div.minimenu>div.menu{
     width: 70%;
     height: 38px;
-    margin-right: 30px;
+    margin-right: 15px;
     margin-top: 12px;
 }
 header>div.minimenu>div.menu>nav>ul{
@@ -163,6 +164,7 @@ header>div.minimenu>div.menu>nav>ul>li>svg{
     fill:#b1b4bb;
     margin-left: 5px;
     vertical-align: top;
+    transform: scale(0.8);
 }
 header>div.minimenu>div.menu>nav>ul>li:first-child>ul{
     background-color: rgb(244, 244, 244);
@@ -188,6 +190,7 @@ header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li>svg{
     vertical-align: top;
     fill: #3f4064;
     margin-left: 10px;
+    transform: scale(0.8);
 }
 header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li>svg:hover{
     fill: #ef394e
@@ -278,10 +281,11 @@ header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li>ul>a>svg{
     width:15px;
     height:18px;
     vertical-align: top;
-    margin-top: 23px;
+    margin-top: 25px;
     text-align: right;
-    margin-right:7px;
+    margin-right:5px;
     fill:  rgb(36, 171, 205);
+    transform: scale(0.7);
 }
 header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li>ul>div{
     display: flex;
@@ -317,6 +321,7 @@ header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li>ul>div>a>p>svg{
     height:18px;
     vertical-align: top;
     margin-right:3px;
+    transform: scale(0.7);
 }
 header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li>ul>div>a>p:hover{
     color: #ef394e;

@@ -32,6 +32,8 @@ main>div.digiclub>div>svg{
     width: 20%;
     margin-top: 20px;
     fill: #29c2d4;
+    transform: scale(0.8);
+    margin-right: 10px;
 }
 main>div.digiclub>div>span{
     height: 26px;

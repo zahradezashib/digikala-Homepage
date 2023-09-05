@@ -100,9 +100,10 @@ footer{
 .bishtar>a>div>svg{
     height: 50px;
     width: 50px;
-    fill: #767790;
+    fill: #9e9fb1;
     margin-top: 20px;
     margin-left: 20px;
+    transform: scale(1.4);
 }
 .bishtar>a:nth-child(4)>div:nth-last-child(1){
     height: 48px;
@@ -112,17 +113,18 @@ footer{
 .bishtar>a:nth-child(4)>div:nth-last-child(1)>input:nth-child(2){
     height: 48px;
     width:90%;
-    background-color: #e4e5ea;
+    background-color: #f1f2f4;
     border-radius: 10px;
     border: none;
     font-size: 18px;
     padding-right: 15px;
+    outline: none;
 }
 .bishtar>a:nth-child(4)>div:nth-last-child(1)>input:nth-child(3){
     height: 48px;
     width:15%;
-    margin-right: 10%;
-    background-color: #cccbd3;
+    margin-right: 3%;
+    background-color:#e1e0e6;
     color: white;
     border: none;
     border-radius: 10px;

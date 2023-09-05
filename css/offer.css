@@ -72,6 +72,7 @@ main>div.offerContainer{
   margin-bottom: 20px;
   height: 16px;
   width: 16px;
+  transform: scale(1.2);
 }
 .shegeft>.swiper-wrapper>.swiper-slide:nth-child(13){
   border-radius:12px 0 0 12px;

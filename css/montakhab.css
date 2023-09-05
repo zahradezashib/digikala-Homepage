@@ -52,7 +52,8 @@ main>div.montakhab>a>span{
 }
 main>div.montakhab>a>div>svg{
     width: 16px;
-    height: 16px;  
+    height: 16px;
+    transform: scale(1.2);  
 }
 main>div.montakhab>a>div>span:nth-child(1){
     color: white;

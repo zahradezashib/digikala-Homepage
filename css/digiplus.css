@@ -37,10 +37,12 @@ main>div.digiplus>div:nth-child(1)>div>a{
     margin: 10px; 
 }
 main>div.digiplus>div:nth-child(1)>div>a>svg{
-    height: 24px;
+    height: 26px;
     width: 24px;
     fill: white;
-    padding-top:6px;
+    padding-top:2px;
+    transform: scale(1);
+    vertical-align: top;
 }
 main>div.digiplus>div>img{
     height: 116px;

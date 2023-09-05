@@ -1,0 +1,101 @@
+main>div.offerContainer{
+  width: 85%;
+  height: 300px;
+  background-color:#ef394e;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 15px;
+  padding: 20px 5px;
+}
+.shegeft>.swiper-wrapper>.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: block;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: center;
+  flex-direction:row; 
+}
+.shegeft>.swiper-wrapper>.swiper-slide:nth-child(1){
+  background-color: #ef394e;
+  color: white;
+}
+.shegeft>.swiper-wrapper>.swiper-slide:nth-child(1)>svg{
+  vertical-align: top;
+  fill: white;
+  margin-bottom: 20px;
+  height: 18px;
+  width: 16px;
+  margin-top: 3px;
+}
+.shegeft>.swiper-wrapper>.swiper-slide:nth-child(2){
+  border-radius: 0 12px 12px 0;
+}
+.shegeft>.swiper-wrapper>.swiper-slide:nth-child(1)>img{
+  width: 100px;
+  height: 100px;
+}
+.shegeft>.swiper-wrapper>.swiper-slide>img{
+  display:block;
+  width:150px;
+  height:150px;
+  object-fit: cover;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.shegeft>.swiper-wrapper>.swiper-slide>span:nth-of-type(1){
+  width: 20px;
+  color:white;
+  background-color: #ef394e;
+  border-radius: 10px;
+  display: inline;
+  margin-left: 5px;
+  font-size: 15px;
+  text-align: center;
+}
+.shegeft>.swiper-wrapper>.swiper-slide>span:nth-of-type(2){
+  color: black;
+  margin-right: 10px;
+}
+.shegeft>.swiper-wrapper>.swiper-slide>p{
+  color: #c3c3cb;
+  text-decoration:line-through;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 13px;
+}
+.shegeft>.swiper-wrapper>.swiper-slide>svg{
+  vertical-align: top;
+  fill:black;
+  margin-bottom: 20px;
+  height: 16px;
+  width: 16px;
+}
+.shegeft>.swiper-wrapper>.swiper-slide:nth-child(13){
+  border-radius:12px 0 0 12px;
+}
+.shegeft>.swiper-wrapper>.swiper-slide:nth-child(13)>div{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  display:inline-block;
+  margin-top: 30px;
+}
+.shegeft>.swiper-wrapper>.swiper-slide:nth-child(13)>div>svg{
+  fill: #19bfd3;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-top: 20px;
+  vertical-align: top;
+}
+.shegeft>.swiper-wrapper>.swiper-slide:nth-child(13)>p{
+  color:#434456;
+  height: 30px;
+  text-align: center;
+  margin-top: 35px;
+  text-decoration: none;
+  font-size: 18px;
+}

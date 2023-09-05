@@ -1,0 +1,90 @@
+main>div.bazdid{
+    width: 85%;
+    height: 420px;
+    border: 1px solid rgb(190, 215, 230);
+    margin: 0 auto;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main>div.bazdid>div{
+    margin: 0 auto;
+    width: 20%;
+    height: 420px;
+}
+main>div.bazdid>div>h4{
+    width: 100%;
+    height: 34px;
+    display:block;
+    line-height:34px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+main>div.bazdid>div>p{
+    width: 100%;
+    display:block;
+    height: 23px;
+    margin-top: 10px;
+    color: rgb(169, 167, 167);
+    font-size: 13px;
+}
+main>div.bazdid>div>img{
+    height: 125px;
+    margin-top: 5px;
+}
+main>div.bazdid>div>a>span{
+    width: 100%;
+    height: 26px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(36, 171, 205);
+}
+
+
+
+main>div.bazdidDo{
+    width: 85%;
+    height: 420px;
+    border: 1px solid rgb(190, 215, 230);
+    margin: 0 auto;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+main>div.bazdidDo>div{
+    margin: 0 auto;
+    width: 20%;
+    height: 420px;
+}
+main>div.bazdidDo>div>h4{
+    width: 100%;
+    height: 34px;
+    display:block;
+    line-height:34px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+main>div.bazdidDo>div>p{
+    width: 100%;
+    display:block;
+    height: 23px;
+    margin-top: 10px;
+    color: rgb(169, 167, 167);
+    font-size: 13px;
+}
+main>div.bazdidDo>div>img{
+    height: 125px;
+    margin-top: 5px;
+}
+main>div.bazdidDo>div>a>span{
+    width: 100%;
+    height: 26px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(36, 171, 205);
+}

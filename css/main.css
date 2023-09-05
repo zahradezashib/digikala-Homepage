@@ -1,0 +1,21 @@
+@import url(./swiper.css);
+@import url(../css/header.css);
+@import url(../css/story.css);
+@import url(./icon.css);
+@import url(../css/offer.css);
+@import url(../css/supermarket.css);
+@import url(../css/dastebandi.css);
+@import url(../css/pishnahad.css);
+@import url(../css/mahbobtarin.css);
+@import url(../css/bazdid.css);
+@import url(../css/digiplus.css);
+@import url(../css/digiclub.css);
+@import url(../css/porforoshtarinha.css);
+@import url(../css/montakhab.css);
+@import url(../css/daghtarin.css);
+@import url(../css/footer.css);
+@import url(../css/setting.css);
+@font-face{
+    font-family:byekan;
+    src: url("../font/Yekan.ttf");
+}

@@ -1,0 +1,141 @@
+main>div.daghtarin{
+    width:85%;
+    height:405px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #e1e1e1;
+}
+main>div.daghtarin>div{
+    width: 100%;
+    height: 44px;
+    text-align:center;
+}
+main>div.daghtarin>div>svg{
+    fill: #f0ae40;
+    width: 24px;
+    height:24px ;
+    vertical-align: top;
+    margin-top: 25px;
+}   
+main>div.daghtarin>div>p{  
+    display: inline-block;
+    font-size: 25px;
+    line-height: 76px;
+}
+main>div.daghtarin>div.daghtarinContainer{
+    width: 100%;
+    height:300px ;
+}
+.dagh>.swiper-wrapper>.swiper-slide{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top: 30px;
+}
+.dagh>.swiper-wrapper>.swiper-slide>div{
+    width:25%;
+    height:86px;
+    display:flex;
+}
+.dagh>.swiper-wrapper>.swiper-slide>div>img{
+    width:86px;
+    height:86px; 
+}
+.dagh>.swiper-wrapper>.swiper-slide>div>span{
+    height:86px;
+    color:#19bfd3;
+    font-size: 26px;
+    margin-top: 10px;
+    text-align: center;
+}
+.dagh>.swiper-wrapper>.swiper-slide>div>p{  
+    height:12px;
+    color: #3f4064;
+    text-align: right;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+main>.khandani{
+    width: 85%;
+    height: 370px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+main>.khandani>div:nth-child(1){
+    width: 100%;
+    height:65px;
+    display: flex;
+    justify-content: space-between;
+}
+main>.khandani>div:nth-child(1)>p{
+    height:35;
+    font-size: 20px;
+    text-align: center;
+    line-height: 65px;
+    margin-right: 20px;
+}
+main>.khandani>div:nth-child(1)>a{
+    height: 25px;
+    color: #19bfd3;
+    line-height: 65px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+main>.khandani>div:nth-child(1)>a>svg{
+    width:18px;
+    height:18px;
+    vertical-align: top;
+    fill: #19bfd3;
+    margin-top: 20px;
+}
+main>.khandani>div:nth-child(2){
+    width:100%;
+    height:300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main>.khandani>div:nth-child(2)>a{
+    height: 280px;
+    width:24%;
+    border-radius: 13px 13px 0 0;
+    border: 1px solid #e1e1e1;
+}
+main>.khandani>div:nth-child(2)>a>img{
+    height: 195px;
+    width:100%;
+    border-radius: 13px 13px 0 0;
+}
+main>.khandani>div:nth-child(2)>a>span{
+    width: 100%;
+    height: 26px;
+    color:#080a38;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

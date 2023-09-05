@@ -1,0 +1,68 @@
+main>div.montakhab{
+    width: 85%;
+    height: 815px;
+    border: 1px solid #e4e4e4;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+main>div.montakhab>div{
+    width: 100%;
+    height: 76px;
+    text-align:center;
+}
+main>div.montakhab>div>svg{
+    fill: #ef4056;
+    width: 24px;
+    height:24px ;
+    vertical-align: top;
+    margin-top: 25px;
+}   
+main>div.montakhab>div>h3{  
+    display:inline-block;
+    font-size: 25px;
+    line-height: 76px;
+}
+main>div.montakhab>a{
+    width:16%;
+    height: 230px;
+    text-align:left;
+    display: block;
+    text-align: center;
+    border: 1px solid #f2f4f3;
+    border-top: none;
+    border-right: none;
+    margin-top: 10px;
+}
+main>div.montakhab>a>div{
+    width:100%;
+    height:30px;
+}
+main>div.montakhab>a>img{
+    width:150px ;
+    height: 150px;
+}
+main>div.montakhab>a>span{
+    color: #c3c3ce;
+    text-decoration: line-through;
+    font-size:13px;
+    margin-right: 70px;
+}
+main>div.montakhab>a>div>svg{
+    width: 16px;
+    height: 16px;  
+}
+main>div.montakhab>a>div>span:nth-child(1){
+    color: white;
+    background-color: #ef394e;
+    border-radius: 12px;
+    margin-left: 58px;
+    font-size:15px;
+}
+main>div.montakhab>a>div>span:nth-child(2){
+    color: black;
+    font-size:17px;
+    font-weight: bold;
+}

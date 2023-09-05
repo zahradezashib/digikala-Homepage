@@ -1,0 +1,31 @@
+main>div.story{
+    width: 100%;
+    height: 144px;
+    display:flex;
+    padding: 5px 150px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+main>div.story>div{
+    margin: 20px;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+main>div.story>div>img{
+    width: 75px;
+    height: 75px;
+    flex-direction: row;
+    border-radius: 50%;
+    border: 3px solid red;
+    padding: 3px;
+}
+main>div.story>div>p{
+    flex-direction: row;
+    text-align: center;
+    width: 75;
+    height: 16px;
+    font: 10px;
+}

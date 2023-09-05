@@ -1,0 +1,35 @@
+main>div.dastebandi{
+    width: 85%;
+    height: 430px;
+    margin: 0 auto;
+    text-align: center;
+}
+main>div.dastebandi>h3{
+    display: block;
+    width: 40%;
+    height: 70px;
+    margin: 0 auto;
+    font-size: 23px;
+    text-align: center;
+    line-height: 70px;
+}
+main>div.dastebandi>div{
+    display: inline-block;
+    height: 134px;
+    padding: 25px;
+}
+main>div.dastebandi>div>img{
+    height:100px;
+}
+main>div.dastebandi>div:nth-child(14)>img{
+    height: 66px;
+}
+main>div.banner-vizhe{
+    width:85%;
+    margin: 0 auto;
+}
+main>div.banner-vizhe>img{
+    height: 257px;
+    border-radius: 16px;
+    padding: 3px;
+}

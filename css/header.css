@@ -1,0 +1,329 @@
+header{
+    width: 100%;
+    height: 170px;
+    position: sticky;
+    z-index: 999;
+    top: 0%;
+    box-shadow: 1px 1px 1px rgb(204, 200, 200);
+    background-color:white;
+}
+header>div.banner{
+    width: 100%;
+    height: 60px;
+}
+header>div.banner>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+header>div.parent{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+header>div.parent>div.logo{
+    margin-right: 20px;
+    margin-top: 5px;
+}
+header>div.parent>div.search{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+input[type=search]{
+    padding: 0px  380px;
+    background-color: #f1f2f4;
+    border-radius: 8px;
+    margin-right: 15px;
+    outline:none;
+    border:none;
+    background-image: url(../pictures/search.jfif);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: center right;
+    height: 40px;
+    text-align: right;
+    padding-right: 30px;
+}
+header>div.parent>div.login{
+    width: 20%;
+    height: 40px;
+    display:flex;
+    flex-direction: row;
+    margin-right: 30px;  
+}
+header>div.parent>div.login>a:first-child{
+    width: 60%;
+    height: 40px;
+    flex-direction: row;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid lightgray;
+    padding-right: 10px;
+    color: black;
+    margin-right: 10px; 
+}
+header>div.parent>div.login>a:first-child>svg{
+    width: 20px;
+    height: 21px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+header>div.parent>div.login>a:last-child>svg{
+    vertical-align: top;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+header>div.minimenu{
+    width: 100%;
+    height: 40px;
+    display:flex;
+    flex-direction: row; 
+}
+header>div.minimenu>div.location{
+    width: 30%;
+    text-align: left;
+    margin-left: 15px;
+    color: rgb(81, 79, 79);
+    font-size: 14px;
+    position: relative;
+    margin-top: 14px;
+    margin-left: 25px;
+}
+header>div.minimenu>div.location>p>svg{
+    height: 21px;
+    width: 5%;
+    fill: rgb(81, 79, 79);
+    vertical-align: top;
+}
+header>div.minimenu>div.location>div.city{
+    text-align: center;
+    line-height: 40px;
+    width: 40%;
+    height: 40px;
+    background-color: rgb(62, 44, 92);
+    color: whitesmoke;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top:39px;
+    font-size: 14px;
+    display: none;
+}
+header>div.minimenu>div.location:hover>div.city{
+    display: block;
+    transition: 300ms;
+}
+header>div.minimenu>div.menu{
+    width: 70%;
+    height: 38px;
+    margin-right: 30px;
+    margin-top: 12px;
+}
+header>div.minimenu>div.menu>nav>ul{
+    height: 20px;
+    display:flex;
+    flex-direction: row;
+    margin-top: 18px;
+    line-height: 20px;
+}
+header>div.minimenu>div.menu>nav>ul>li{
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    margin: -8px 8px;
+    color: rgb(139, 132, 132);
+    font-size: 13px;
+    padding-right: 5px 5px;
+    text-align: center;
+    overflow: hidden; 
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child{
+    color: black;
+    font-size: 15px;
+    position: relative;
+}
+header>div.minimenu>div.menu>nav>ul>li:hover{
+    border-bottom:2px solid #ef394e;
+    transition: 100ms;
+    overflow: unset;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>svg{
+    width: 24px;
+    height: 30px;
+    fill:black;
+    vertical-align: top;
+}
+header>div.minimenu>div.menu>nav>ul>li>svg{
+    width: 25px;
+    height:35px;
+    fill:#b1b4bb;
+    margin-left: 5px;
+    vertical-align: top;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul{
+    background-color: rgb(244, 244, 244);
+    height:550px;
+    width: 150%;
+    position: absolute;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li{
+    color:#3f4064;
+    text-align: right;
+    margin-top: 10px;
+    font-size: 14px;
+    position: relative;
+    overflow: hidden;
+    margin: 15px 0;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li:nth-child(1){
+    overflow: unset;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li>svg{
+    height:25px;
+    width:25px;
+    vertical-align: top;
+    fill: #3f4064;
+    margin-left: 10px;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li>svg:hover{
+    fill: #ef394e
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li:hover{
+    background-color: white;
+    color:  #ef394e;
+    overflow: unset;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li:nth-child(2):hover>ul{
+    position: absolute;
+    margin-top: -60px;
+    overflow-y:scroll;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li:nth-child(3):hover>ul{
+    position: absolute;
+    margin-top: -105px;
+    overflow-y:scroll;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li:nth-child(4):hover>ul{
+    position: absolute;
+    margin-top: -150px;
+    overflow-y:scroll;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li:nth-child(5):hover>ul{
+    position: absolute;
+    margin-top: -195px;
+    overflow-y:scroll;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li:nth-child(6):hover>ul{
+    position: absolute;
+    margin-top: -240px;
+    overflow-y:scroll;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li:nth-child(7):hover>ul{
+    position: absolute;
+    margin-top: -285px;
+    overflow-y:scroll;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li:nth-child(8):hover>ul{
+    position: absolute;
+    margin-top: -330px;
+    overflow-y:scroll;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li:nth-child(9):hover>ul{
+    position: absolute;
+    margin-top: -375px;
+    overflow-y:scroll;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li:nth-child(10):hover>ul{
+    position: absolute;
+    margin-top: -420px;
+    overflow-y:scroll;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li:nth-child(11):hover>ul{
+    position: absolute;
+    margin-top: -465px;
+    overflow-y:scroll;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li:nth-child(12):hover>ul{
+    position: absolute;
+    margin-top: -510px;
+    overflow-y:scroll;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li>ul{
+    position: absolute;
+    border: 2px solid whitesmoke;
+    background-color: rgb(250, 250, 250);
+    right: 100%;
+    padding: 0 10px;
+    width: 900px;
+    height:550px;
+    top: 0;
+    margin-top: -15px;
+    overflow-y:scroll;
+    direction:ltr;
+    border-radius: 0 0 0 10px; 
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li>ul>a{
+    height: 70px;
+    width: 100%;
+    text-align: right;
+    color:  rgb(36, 171, 205);
+    font-size: 14px;
+    line-height: 70px;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li>ul>a>svg{
+    width:15px;
+    height:18px;
+    vertical-align: top;
+    margin-top: 23px;
+    text-align: right;
+    margin-right:7px;
+    fill:  rgb(36, 171, 205);
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li>ul>div{
+    display: flex;
+    width: 100%;
+    direction:rtl;  
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li>ul>div>a{
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;   
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li>ul>div>a>p{
+    text-align: right;
+    color: black;
+    border-right: 2px solid red;
+    height: 20px;
+    line-height: 20px;
+    width: 130%;
+    font-size: 16px;
+    padding: 0 3px 0 10px;
+    transition: 300ms;
+    margin: 10px;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li>ul>div>a>span{
+    text-align: right;
+    color: rgb(178, 174, 174);
+    font-size: 14px;
+    margin: 5px;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li>ul>div>a>p>svg{
+    width:15px;
+    height:18px;
+    vertical-align: top;
+    margin-right:3px;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li>ul>div>a>p:hover{
+    color: #ef394e;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li>ul>div>a>span:hover{
+    color: #ef394e;
+}
+header>div.minimenu>div.menu>nav>ul>li:first-child>ul>li>ul>div>a>p>svg:hover{
+    fill:  #ef394e;
+}

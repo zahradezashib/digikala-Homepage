@@ -1,0 +1,128 @@
+main>div.digiplus{
+    width: 85%;
+    height: 390px;
+    background-color: #941b80;
+    margin: 0 auto;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;   
+}
+main>div.digiplus>div:nth-child(1){
+    width: 30%;
+    margin: 15px;
+    height: 356px;
+    border-radius: ;
+    margin-top: 15px;
+    padding-right: 5px; 
+}
+main>div.digiplus>div:nth-child(1)>img{
+    width: 100%;
+    height: 300px;
+    background-position: center bottom;
+}
+main>div.digiplus>div:nth-child(1)>div>img{
+    display:flex;
+}
+main>div.digiplus>div:nth-child(1)>div>p{
+    color: white;
+    margin-bottom: 10px;
+}
+main>div.digiplus>div:nth-child(1)>div>a{
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 4px 10px;
+    height: 38px;
+    margin: 10px; 
+}
+main>div.digiplus>div:nth-child(1)>div>a>svg{
+    height: 24px;
+    width: 24px;
+    fill: white;
+    padding-top:6px;
+}
+main>div.digiplus>div>img{
+    height: 116px;
+    width: 60%;
+}
+main>div.digiplus>div:nth-child(2){
+    width: 40%;
+    margin: 15px;
+    height: 356px;
+    border-radius:0 16px 16px 0 ;
+    margin-top: 15px;
+    padding-right: 5px; 
+    background-color:white;
+    margin-left: 2px;
+}
+main>div.digiplus>div:nth-child(2)>div{
+    height: 40px;
+    width: 98%;
+    background-color:white;
+    display: flex;
+    margin-top: 4px;
+} 
+main>div.digiplus>div:nth-child(2)>div>h4{
+    height: 34px;
+    width: 50%;
+    margin-top: 7px;
+}  
+main>div.digiplus>div:nth-child(2)>div>a{
+    height: 26px;
+    margin-right: 50px;
+    margin-top: 7px;
+    color: #b12ba4; 
+}
+main>div.digiplus>div:nth-child(2)>div>svg{
+    height:24px;
+    width: 30px;
+    margin-top: 7px;
+    margin-left: 5px;
+    fill: #941b80;  
+}
+main>div.digiplus>div:nth-child(2)>img{
+    height: 116px;
+    width: 30%;
+    margin:20px 5px;  
+}
+main>div.digiplus>div:nth-child(3){
+    width: 40%;
+    margin: 15px;
+    height: 356px;
+    border-radius:16px 0 0 16px;
+    margin-top: 15px;
+    padding-right: 5px; 
+    background-color:white;
+    margin-right: 2px;
+}
+main>div.digiplus>div:nth-child(3)>div{
+    height: 40px;
+    width: 98%;
+    background-color:white;
+    display: flex;
+    margin-top: 4px;
+} 
+main>div.digiplus>div:nth-child(3)>div>h4{
+    height: 34px;
+    width: 50%;
+    margin-top: 7px;
+}  
+main>div.digiplus>div:nth-child(3)>div>a{
+    height: 26px;
+    margin-right: 50px;
+    margin-top: 7px;
+    color: #b12ba4; 
+}
+main>div.digiplus>div:nth-child(3)>div>svg{
+    height:24px;
+    width: 30px;
+    margin-top: 7px;
+    margin-left: 5px;
+    fill: #941b80;  
+}
+main>div.digiplus>div:nth-child(3)>img{
+    height: 116px;
+    width: 30%;
+    margin:20px 5px;
+}

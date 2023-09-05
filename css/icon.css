@@ -1,0 +1,41 @@
+main>div.icon{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 200px;
+}
+main>div.icon>div{  
+    height: 79px;
+    text-align: center;
+}
+main>div.icon>div>img{
+    width: 52px;
+    height: 52px;
+}
+main>div.icon>div:last-child{
+    width: 60px;
+    height:60px;
+    background-color: #f1f2f4;
+    border-radius: 50px;
+    line-height: 30px;
+}
+main>div.icon>div>svg{
+    fill:#9e9fb1;
+    width: 35px;
+    height:35px;
+    margin-top: 17px;
+    margin-left: 7px;   
+}
+main>div.icon>div:last-child>span{
+    position: relative;
+    bottom: 7px;
+    vertical-align: top;
+}
+main>div.icon>div>p{
+    height: 23px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 23px;
+}

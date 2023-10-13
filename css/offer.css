@@ -1,3 +1,4 @@
+/*سویپر دوم پیشنهاد شگفت انگیز قرمز*/
 main>div.offerContainer{
   width: 85%;
   height: 300px;
@@ -54,6 +55,7 @@ main>div.offerContainer{
   margin-left: 5px;
   font-size: 15px;
   text-align: center;
+  padding: 0 3%;
 }
 .shegeft>.swiper-wrapper>.swiper-slide>span:nth-of-type(2){
   color: black;

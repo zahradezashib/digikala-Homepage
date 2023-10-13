@@ -1,3 +1,5 @@
+/*بر اساس بازدید های شما قسمت اول و دوم*/
+/*قسمت اول*/
 main>div.bazdid{
     width: 85%;
     height: 420px;
@@ -42,8 +44,7 @@ main>div.bazdid>div>a>span{
     color: rgb(36, 171, 205);
 }
 
-
-
+/*قسمت دوم*/
 main>div.bazdidDo{
     width: 85%;
     height: 420px;

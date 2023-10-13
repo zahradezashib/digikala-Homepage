@@ -93,7 +93,7 @@ header>div.minimenu>div.location{
     margin-top: 14px;
     margin-left: 25px;
 }
-header>div.minimenu>div.location>p>svg{
+header>div.minimenu>div.location>label>svg{
     height: 21px;
     width: 5%;
     fill: rgb(81, 79, 79);
@@ -117,6 +117,79 @@ header>div.minimenu>div.location>div.city{
 header>div.minimenu>div.location:hover>div.city{
     display: block;
     transition: 300ms;
+}
+#show,#hide{display: none;}
+#show:checked ~ div.listCity{
+    display:block;
+}
+#hide:checked ~ div.listCity{
+    display: none;
+}
+.listCity>div.list>span>label>svg{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    fill: #424750;
+    border-radius: 50px;
+    transform: scale(1);
+    vertical-align: top;
+}
+.listCity>div.list>span{
+    border-bottom:1px solid #efefef ;
+    display:flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 55px;
+    padding: 10px 0px;
+    margin-right: 25px;
+}
+.listCity>div.list>span:nth-child(2){
+    border-bottom: none;
+}
+.listCity>div.list>span:nth-child(2)>svg{
+    fill: #19bfd3;
+    width: 30px;
+    height: 30px;
+    vertical-align: top;
+    margin-top: 5px;
+}
+.listCity>div.list>span:nth-child(2)>p{
+    color: #19bfd3;
+    padding-left: 250px;
+    font-size: 17px;
+    line-height: 35px;
+}
+.listCity>div.list>span:nth-child(1)>p{
+   font-size: 18px;
+   color: black;
+}
+.listCity>div.list>span>p{
+    font-size: 16px;
+    color: #424750;
+}
+.listCity>div.list>span>svg{
+    width: 20px;
+    height: 20px;
+    fill: #424750;
+}
+.listCity{
+   width:100vw;
+   height: 100vh;
+    top:-131px;
+    right:-1067px;
+    background-color: rgba(71, 68, 72, 0.427);
+    display:none;
+    position:absolute;
+}
+.listCity>div.list{
+    width: 30%;
+    height: 550px;
+    background-color: white;
+    margin-right:auto;
+    margin-left: auto;
+    margin-top: 80px;
+    border-radius: 10px;
+    overflow-y: scroll;
 }
 header>div.minimenu>div.menu{
     width: 70%;

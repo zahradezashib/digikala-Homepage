@@ -1,3 +1,5 @@
+/*سویپر پنجم داغ ترین چند ساعت گذشته و خواندنی ها*/
+/*داغ ترین*/
 main>div.daghtarin{
     width:85%;
     height:405px;
@@ -62,6 +64,7 @@ main>div.daghtarin>div.daghtarinContainer{
     margin-top: 15px;
     margin-right: 10px;
 }
+/*خواندنی ها*/
 main>.khandani{
     width: 85%;
     height: 370px;

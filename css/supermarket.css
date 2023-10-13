@@ -1,3 +1,4 @@
+/*شگفت انگیر سوپر مارکتی سبز و چهارتا عکس زیرش*/
 main>div.supermarket{
     width: 85%;
     height: 110px;
@@ -51,7 +52,7 @@ main>div.supermarket>div:nth-child(2)>img{
     height: 60px;
     border-radius: 50px;
     margin-top: 22px;
-    margin-right: 3px;
+   ;
 }
 main>div.supermarket>div:nth-child(2)>span{
     background-color:#ef394e;
@@ -60,8 +61,9 @@ main>div.supermarket>div:nth-child(2)>span{
     color:white;
     position: relative;
     bottom: 8px;
-    right: 30px;
+    right: 20px;
     text-align: center;
+    padding: 0 2px;
 }
 main>div.supermarket>div:nth-child(3){
     background-color: white;
